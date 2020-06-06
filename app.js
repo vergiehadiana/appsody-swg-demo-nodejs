@@ -1,7 +1,7 @@
 const app = require('express')()
 
 app.get('/', (req, res) => {
-  res.send("Hello from Appsody - Version 1 !");
+  res.send("Hello from IBM Cloud Pak for Application - SWG Vergie !");
 });
  
 module.exports.app = app;
