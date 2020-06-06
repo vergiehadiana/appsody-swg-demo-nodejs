@@ -55,7 +55,7 @@ metadata:
     version: 0.2.10
   creationTimestamp: null
   labels:
-    image.opencontainers.org/title: appsody-demo-nodejs
+    image.opencontainers.org/title: swg-demo-nodejs
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
   name: swg-demo-nodejs
