@@ -59,7 +59,7 @@ metadata:
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
   name: swg-demo-nodejs
-  namespace: vergieswg
+  namespace: kabanero
 spec:
   applicationImage: dev.local/swg-demo-nodejs
   createKnativeService: false
