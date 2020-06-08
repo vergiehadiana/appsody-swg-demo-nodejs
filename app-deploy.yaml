@@ -4,7 +4,7 @@ metadata:
   name: demo-nodejs-vergie
   namespace: swg-vergie
   labels:
-    image.opencontainers.org/title: swg-demo-nodejs
+    image.opencontainers.org/title: demo-nodejs-vergie
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
 spec:
