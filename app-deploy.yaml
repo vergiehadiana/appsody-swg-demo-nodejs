@@ -1,14 +1,14 @@
 apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
-  name: swg-demo-nodejs
-  namespace: kabanero
+  name: demo-nodejs-vergie
+  namespace: swg-vergie
   labels:
     image.opencontainers.org/title: swg-demo-nodejs
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
 spec:
-  applicationImage: dev.local/swg-demo-nodejs
+  applicationImage: dev.local/demo-nodejs-vergie
   createKnativeService: false
   expose: true
   livenessProbe:
@@ -20,7 +20,7 @@ spec:
     periodSeconds: 2
   monitoring:
     labels:
-      k8s-app: swg-demo-nodejs
+      k8s-app: demo-nodejs-vergie
   readinessProbe:
     failureThreshold: 12
     httpGet:
