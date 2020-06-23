@@ -2,7 +2,7 @@ apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   name: demo-nodejs-vergie
-  namespace: swg-vergie
+  namespace: kabanero
   labels:
     image.opencontainers.org/title: demo-nodejs-vergie
     stack.appsody.dev/id: nodejs-express
